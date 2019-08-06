@@ -41,7 +41,6 @@
     
 ## Results on Recent Models
 
-<p align="center">
 <table>
 <tr>
 <td>
@@ -77,7 +76,6 @@ vgg19_bn | 137.02 | 20.49
 
 </td>
 </tr>
-</p>
 
 
 ## Trial and error
