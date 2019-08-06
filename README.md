@@ -78,3 +78,7 @@ vgg19_bn | 137.02 | 20.49
 </td>
 </tr>
 </p>
+
+## Trial and error
+RuntimeError: get device is not implemented for tensors with CUP backend ...
+出现了以上报错，解决：在模型送去GPU之前，构造一个tensor送进模型，就不会出现上述报错。
